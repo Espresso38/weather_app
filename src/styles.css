@@ -2,3 +2,49 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+    background-color: #cbd5e1;
+}
+
+#form {
+    margin: 20px 0px;
+    display: flex;
+    height: 30vh;
+    width: 40vw;
+    background-color: #64748b;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    border-radius: 50px;
+}
+
+#city_name {
+    border: none;
+    padding: 4px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+}
+
+#submit {
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    margin-left: 80px;
+}
+
+#weather_info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #64748b;
+    height: 30vh;
+    width: 40vw;
+    border-radius: 50px;
+}

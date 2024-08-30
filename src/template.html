@@ -6,14 +6,18 @@
     <title>Weather</title>
 </head>
 <body>
-    <form id="weather_form">
-        <label>
-            <p>
+    <div id="form">
+        <form id="weather_form">
+            <label>
                 Enter your city:
-                <input type="text" id="city_name" name="city_name" required minlength="3">
-            </p>
-            <input type="submit" id="submit">
-        </label>
-    </form>
+                <p>
+                    <input type="text" id="city_name" name="city_name" required minlength="3">
+                </p>
+                <input type="submit" id="submit">
+            </label>
+        </form>
+    </div>
+    <div id="weather_info">
+    </div>
 </body>
 </html>
